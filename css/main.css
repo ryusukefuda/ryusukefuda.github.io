@@ -8,6 +8,10 @@ text-rendering: optimizeLegibility;
 min-width: 320px;
 }
 
+a {
+	color:#ffffff;
+	text-decoration: none;
+}
 .masthead.segment {
 background-image: url(../images/bg.jpg);
 -webkit-background-size: cover;
