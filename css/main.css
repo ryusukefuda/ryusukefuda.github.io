@@ -12,6 +12,7 @@ a {
 	color:#ffffff;
 	text-decoration: none;
 }
+
 .masthead.segment {
 background-image: url(../images/bg.jpg);
 -webkit-background-size: cover;
@@ -45,6 +46,12 @@ bottom: -110px;
 .mBottom10 {
 	margin-bottom: 10px;
 }
+
+.contentsBox
+{
+	background-color:#EEEEEE;
+}
+
 .cell {
 background-color: white;
 border: 1px solid #EAEAEA;
