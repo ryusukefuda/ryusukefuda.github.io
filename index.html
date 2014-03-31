@@ -3,9 +3,11 @@
 <head>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/semantic.min.js"></script>
-<script src="js/jquery.zoomooz.min.js"></script>
 <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
 <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("5035221b83b1c15d21168d60cb620f94");</script><!-- end Mixpanel -->
 </head>
 <body id="home">
   <div class="ui inverted page grid masthead segment">
@@ -27,12 +29,12 @@
 
   <div class="ui page grid overview segment">
     <div class="ui one wide column"></div>
-    <div class="fourteen wide column contentsbox">
+    <div id="web" class="fourteen wide column contentsbox">
       <div class="column">
       	<div class="ui ribbon teal label">WEB</div>
       </div>
       <div class="ui four column center aligned stackable grid">
-        <div class="column zoomTarget">
+        <div class="column">
           <div class="ui icon header">
             <img class="rounded ui image small mBottom10" src="images/logo_youreye.png">
             YourEye
@@ -40,7 +42,7 @@
           <p>一人称の動画を集めたサイトです。</p>
           <p><a class="ui teal right labeled icon button" href="http://youreye.jp/" target="_blank">Watch<i class="right long arrow icon"></i></a></p>
         </div>
-        <div class="column zoomTarget">
+        <div class="column ">
           <div class="ui icon header">
             <img class="rounded ui image small mBottom10" src="images/logo_jitsuwashokudou.jpeg">
             実話食堂
@@ -48,7 +50,7 @@
           <p>実話に基づいてた映画、本を紹介するサイトです。</p>
           <p><a class="ui teal right labeled icon button" href="http://jitsuwashokudou.com/" target="_blank">Watch<i class="right long arrow icon"></i></a></p>
         </div>
-        <div class="column zoomTarget">
+        <div class="column ">
           <div class="ui icon header">
             <img class="rounded ui image small mBottom10" src="images/logo_zawachin.png">
             どっちみちざわちん
@@ -56,7 +58,7 @@
           <p>ともちんがざわちんかを見極めるゲームです。</p>
           <p><a class="ui teal right labeled icon button" href="http://hotoke3-zawachin.wandering.jp/" target="_blank">Watch<i class="right long arrow icon"></i></a></p>
         </div>
-        <div class="column zoomTarget">
+        <div class="column ">
           <div class="ui icon header">
             <img class="rounded ui image small mBottom10" src="images/logo_greatmountain.png">
             Great Japanese Mountains
@@ -74,7 +76,7 @@
       	<div class="ui ribbon teal label">iOS</div>
       </div>
       <div class="ui two column center aligned stackable grid">
-        <div class="column zoomTarget">
+        <div class="column ">
           <div class="ui icon header">
             <img class="rounded ui image small mBottom10" src="images/logo_mountainnews.png">
             山ニュース
@@ -82,7 +84,7 @@
           <p>登山、アウトドアに関するニュースをまとめて読めるアプリ</p>
           <p><a class="ui teal right labeled icon button" href="https://itunes.apple.com/jp/app/shannyusu/id830581891?l=ja&ls=1&mt=8" target="_blank">Watch<i class="right long arrow icon"></i></a></p>
         </div>
-        <div class="column zoomTarget">
+        <div class="column ">
           <div class="ui icon header">
             <img class="rounded ui image small mBottom10" src="images/logo_climbbox.png">
             ClimbBox
@@ -100,7 +102,7 @@
       	<div class="ui ribbon teal label">Android</div>
       </div>
       <div class="ui one column center aligned stackable grid">
-        <div class="column zoomTarget">
+        <div class="column ">
           <div class="ui icon header">
           	<img class="rounded ui image small mBottom10" src="images/logo_sigourney.png">
             シガニーと節約
@@ -119,7 +121,7 @@
         <div class="ui ribbon teal label">Hackathon</div>
       </div>
       <div class="ui one column center aligned stackable grid">
-        <div class="column zoomTarget">
+        <div class="column ">
           <div class="ui icon header">
             <img class="rounded ui image small mBottom10" src="images/logo_later.png">
             LATER
@@ -134,10 +136,10 @@
 <!--
     <div class="zoomViewport demo">
 	    <div class="zoomContainer" style="width:500; height:300">
-	        <div class="zoomTarget cell">Target 1</div>
-	        <div class="zoomTarget cell">Target 2</div>
-	        <div class="zoomTarget cell">Target 3</div>
-	        <div class="zoomTarget cell">Target 4</div>
+	        <div class=" cell">Target 1</div>
+	        <div class=" cell">Target 2</div>
+	        <div class=" cell">Target 3</div>
+	        <div class=" cell">Target 4</div>
 	    </div>
 	</div>
 	<div class="zoomButton" data-type="prev" data-root=".demo">prev</div>
@@ -161,7 +163,13 @@
 
   ga('create', 'UA-49288910-1', 'ryusukefuda.github.io');
   ga('send', 'pageview');
+</script>
 
+<script type="text/javascript">
+    mixpanel.track("View page");
+    mixpanel.track_links("a", "click link to work URL", {
+        "referrer": document.referrer
+    });
 </script>
 </body>
 </html>
